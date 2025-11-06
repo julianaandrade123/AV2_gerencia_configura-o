@@ -1,5 +1,8 @@
 package com.gestao_habitos_saudaveis.model;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 
+
+@JsonTypeName("COMUM")
 
 
 public class UsuarioComum extends Usuario {

@@ -6,28 +6,23 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 
 
 public class UsuarioComum extends Usuario {
-
     private int nivelMotivacao;
 
 
-    public UsuarioComum(long id, String nome, String email, String senha, int nivelMotivacao) {
-
+    public UsuarioComum(Long id, String nome, String email, String senha, int nivelMotivacao) {
         super(id, nome, email, senha);
-
         this.nivelMotivacao = nivelMotivacao;
 
     }
 
 
     public int getNivelMotivacao() {
-
         return nivelMotivacao;
 
     }
 
 
     public void setNivelMotivacao(int nivelMotivacao) {
-
         this.nivelMotivacao = nivelMotivacao;
 
     }

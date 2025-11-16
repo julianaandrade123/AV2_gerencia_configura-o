@@ -4,19 +4,24 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gestao_habitos_saudaveis.model.Habito;
 import org.springframework.stereotype.Repository;
+
+import javax.annotation.PostConstruct;
 import java.io.File;
-import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 @Repository
 public class JsonHabitoRepository implements HabitoRepository {
+
+    private final ObjectMapper mapper = new ObjectMapper();
+    private final File dbFile = Paths.get("data", "habitos.json").toFile();
     private final List<Habito> habitos = new ArrayList<>();
-    private final ObjectMapper objectMapper = new ObjectMapper();
-    private final File arquivoJson = new File("data/habitos.json");
-    public JsonHabitoRepository() {
-        carregar();
+
+    @PostConstruct
+    public void init() {
+        load();
     }
 
     @Override
@@ -26,52 +31,48 @@ public class JsonHabitoRepository implements HabitoRepository {
 
     @Override
     public Optional<Habito> findById(String id) {
-        return habitos.stream()
-                .filter(h -> h.getId().equals(id))
-                .findFirst();
+        return habitos.stream().filter(h -> h.getId().equals(id)).findFirst();
     }
 
     @Override
-    public void save(Habito habito) {
-        findById(habito.getId()).ifPresentOrElse(
-                existente -> {
-                    int index = habitos.indexOf(existente);
-                    habitos.set(index, habito);
-                },
-                () -> habitos.add(habito)
-        );
-        salvar();
+    public Habito save(Habito habito) {
+        findById(habito.getId()).ifPresent(habitos::remove);
+        habitos.add(habito);
+        persist();
+        return habito;
     }
 
     @Override
     public void deleteById(String id) {
-        habitos.removeIf(h -> h.getId().equals(id));
-        salvar();
+        findById(id).ifPresent(h -> {
+            habitos.remove(h);
+            persist();
+        });
     }
 
-    private void carregar() {
+    @Override
+    public void load() {
         try {
-            if (arquivoJson.exists()) {
-                List<Habito> lista = objectMapper.readValue(
-                        arquivoJson,
-                        new TypeReference<>() {}
-                );
-                habitos.clear();
-                habitos.addAll(lista);
+            if (!dbFile.exists()) {
+                dbFile.getParentFile().mkdirs();
+                mapper.writeValue(dbFile, habitos);
+                return;
             }
-        } catch (IOException e) {
-            System.err.println("Erro ao carregar hábitos: " + e.getMessage());
+            List<Habito> list = mapper.readValue(dbFile, new TypeReference<List<Habito>>() {});
+            habitos.clear();
+            if (list != null) habitos.addAll(list);
+
+        } catch (Exception e) {
+            throw new RuntimeException("Erro ao carregar hábitos JSON", e);
         }
     }
 
-    private void salvar() {
+    @Override
+    public void persist() {
         try {
-            if (!arquivoJson.getParentFile().exists()) {
-                arquivoJson.getParentFile().mkdirs();
-            }
-            objectMapper.writerWithDefaultPrettyPrinter().writeValue(arquivoJson, habitos);
-        } catch (IOException e) {
-            System.err.println("Erro ao salvar hábitos: " + e.getMessage());
+            mapper.writerWithDefaultPrettyPrinter().writeValue(dbFile, habitos);
+        } catch (Exception e) {
+            throw new RuntimeException("Erro ao salvar hábitos JSON", e);
         }
     }
 }

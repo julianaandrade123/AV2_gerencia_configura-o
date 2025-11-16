@@ -10,7 +10,11 @@ public interface HabitoRepository {
 
     Optional<Habito> findById(String id);
 
-    void save(Habito habito);
+    Habito save(Habito habito);
 
     void deleteById(String id);
+
+    void load();
+
+    void persist();
 }

@@ -3,41 +3,87 @@ package com.gestao_habitos_saudaveis.controller;
 import com.gestao_habitos_saudaveis.model.RegistroDiario;
 import com.gestao_habitos_saudaveis.model.RegistroHabito;
 import com.gestao_habitos_saudaveis.service.RegistroService;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
+@RestController
+@RequestMapping("/registros")
+@CrossOrigin(origins = "*")
 public class RegistroController {
 
-    private final RegistroService service = new RegistroService();
+    private final RegistroService service;
 
+    public RegistroController(RegistroService service) {
+        this.service = service;
+    }
+
+
+    @GetMapping("/diarios")
     public List<RegistroDiario> listarRegistrosDiarios() {
         return service.listarRegistrosDiarios();
     }
 
-    public RegistroDiario buscarRegistroDiario(Long id) {
+    @GetMapping("/diarios/{id}")
+    public RegistroDiario buscarRegistroDiario(@PathVariable Long id) {
         return service.buscarRegistroDiarioPorId(id);
     }
 
-    public void criarRegistroDiario(RegistroDiario registro) {
-        service.salvarRegistroDiario(registro);
+    @PostMapping("/diarios")
+    public RegistroDiario criarRegistroDiario(@RequestBody RegistroDiario registro) {
+        return service.salvarRegistroDiario(registro);
     }
 
-    public void deletarRegistroDiario(Long id) {
+    @PutMapping("/diarios/{id}")
+    public RegistroDiario atualizarRegistroDiario(
+            @PathVariable Long id,
+            @RequestBody RegistroDiario registroAtualizado
+    ) {
+        RegistroDiario existente = service.buscarRegistroDiarioPorId(id);
+
+        existente.setData(registroAtualizado.getData());
+        existente.setHabitos(registroAtualizado.getHabitos());
+        existente.setUsuario(registroAtualizado.getUsuario());
+
+        return service.salvarRegistroDiario(existente);
+    }
+
+    @DeleteMapping("/diarios/{id}")
+    public void deletarRegistroDiario(@PathVariable Long id) {
         service.deletarRegistroDiario(id);
     }
 
+
+    @GetMapping("/habitos")
     public List<RegistroHabito> listarRegistrosHabitos() {
         return service.listarRegistrosHabitos();
     }
 
-    public RegistroHabito buscarRegistroHabito(Long id) {
+    @GetMapping("/habitos/{id}")
+    public RegistroHabito buscarRegistroHabito(@PathVariable Long id) {
         return service.buscarRegistroHabitoPorId(id);
     }
 
-    public void criarRegistroHabito(RegistroHabito registro) {
-        service.salvarRegistroHabito(registro);
+    @PostMapping("/habitos")
+    public RegistroHabito criarRegistroHabito(@RequestBody RegistroHabito registroHabito) {
+        return service.salvarRegistroHabito(registroHabito);
     }
 
-    public void deletarRegistroHabito(Long id) {
+    @PutMapping("/habitos/{id}")
+    public RegistroHabito atualizarRegistroHabito(
+            @PathVariable Long id,
+            @RequestBody RegistroHabito atualizado
+    ) {
+        RegistroHabito existente = service.buscarRegistroHabitoPorId(id);
+
+        existente.setData(atualizado.getData());
+        existente.setHabito(atualizado.getHabito());
+
+        return service.salvarRegistroHabito(existente);
+    }
+
+    @DeleteMapping("/habitos/{id}")
+    public void deletarRegistroHabito(@PathVariable Long id) {
         service.deletarRegistroHabito(id);
     }
 }

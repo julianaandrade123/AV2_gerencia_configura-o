@@ -1,9 +1,10 @@
 package com.gestao_habitos_saudaveis.service;
 
-import com.gestao_habitos_saudaveis.exception.RecursoNaoEncontradoException;
 import com.gestao_habitos_saudaveis.model.Usuario;
 import com.gestao_habitos_saudaveis.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
+import com.gestao_habitos_saudaveis.exception.RecursoNaoEncontradoException;
+
 
 import java.util.List;
 

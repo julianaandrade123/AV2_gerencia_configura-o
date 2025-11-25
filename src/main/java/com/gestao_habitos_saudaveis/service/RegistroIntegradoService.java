@@ -1,14 +1,17 @@
 package com.gestao_habitos_saudaveis.service;
 
-import com.gestao_habitos_saudaveis.exception.RecursoNaoEncontradoException;
 import com.gestao_habitos_saudaveis.model.Habito;
 import com.gestao_habitos_saudaveis.model.RegistroDiario;
 import com.gestao_habitos_saudaveis.model.RegistroHabito;
 import com.gestao_habitos_saudaveis.model.Usuario;
 import com.gestao_habitos_saudaveis.repository.RegistroRepository;
 import org.springframework.stereotype.Service;
+import com.gestao_habitos_saudaveis.exception.RecursoNaoEncontradoException;
+
 
 import java.util.List;
+
+
 
 @Service
 public class RegistroIntegradoService {

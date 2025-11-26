@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gestao_habitos_saudaveis.model.Habito;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.io.File;
 import java.nio.file.Paths;
 import java.util.ArrayList;

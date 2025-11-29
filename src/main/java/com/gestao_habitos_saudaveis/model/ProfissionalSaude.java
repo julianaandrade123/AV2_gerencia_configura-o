@@ -6,6 +6,10 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 public class ProfissionalSaude extends Usuario {
     private String registroProfissional;
 
+    public ProfissionalSaude(){
+        super();
+    }
+
     public ProfissionalSaude(String nome, String email, String senha, String registroProfissional) {
         super(null, nome, email, senha);
         this.registroProfissional = registroProfissional;

@@ -1,0 +1,4 @@
+Add-Content .gitignore "*.log"
+Add-Content .gitignore ".idea/"
+Add-Content .gitignore ".classpath"
+Add-Content .gitignore ".project"

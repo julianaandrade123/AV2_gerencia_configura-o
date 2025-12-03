@@ -1,0 +1,7 @@
+* 1643d3e (origin/feature/import-gestao) feat: importar projeto gestão de hábitos saudáveis
+* bd902e9 Aplicando .gitignore e ajustando rastreamento de arquivos
+| * d80495c (HEAD -> feature/testes-v2, origin/feature/testes-v2, origin/develop, develop) Merge pull request #2 from julianaandrade123/feature/testes
+|/| 
+| * ec751a6 feat(tests): adicionar SmokeTest
+|/  
+* ae955f7 (origin/main, origin/HEAD, main) First commit

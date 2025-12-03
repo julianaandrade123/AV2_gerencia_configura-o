@@ -1,0 +1,11 @@
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  1) package com.example;
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  2) 
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  3) import org.junit.jupiter.api.Test;
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  4) import org.springframework.boot.test.context.SpringBootTest;
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  5) 
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  6) @SpringBootTest
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  7) class SmokeTest {
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  8) 
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300  9)     @Test
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300 10)     void contextLoads() {}
+ec751a61 (Rod12lePotatoLord2 2025-12-02 17:31:06 -0300 11) }

@@ -1,0 +1,13 @@
+[ {
+  "id" : 1,
+  "nome" : "Juliana",
+  "email" : "juliana@email.com",
+  "senha" : "123456",
+  "nivelMotivacao" : 5
+}, {
+  "id" : 2,
+  "nome" : "Dr. Silva",
+  "email" : "dr.silva@email.com",
+  "senha" : "123456",
+  "registroProfissional" : "CRM12345"
+} ]

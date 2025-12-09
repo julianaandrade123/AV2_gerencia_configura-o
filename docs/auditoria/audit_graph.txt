@@ -1,0 +1,76 @@
+* 0e2fc4a fix(tests): mover SmokeTest para o package correto com.gestao_habitos_saudaveis
+* 4779a78 chore: trigger CI to run tests (Rodrigo)
+* 4af4699 Delete usuarios.json
+* d6831b8 Merge final apos correcoes de CI
+*   fddc91f Merge branch 'develop' of https://github.com/julianaandrade123/AV2_gerencia_configura-o into develop
+|\  
+| * 12642f2 fix(ci): Aplicando permissão de execução (+x) ao mvnw (SOLUÇÃO FINAL DE PERMISSÃO)
+| * 9da3bd2 fix(ci): Criando arquivo maven-wrapper.properties que estava faltando
+| * 1808e6e fix(ci): Aplicando permissão de execução (+x) ao mvnw (FINAL TENTATIVA)
+| * d4b2b23 fix(ci): Arquivos do Maven Wrapper restaurados via importacao de projeto fonte
+| * 8af28ee fix(ci): Corrigindo a permissao do mvnw e finalizando a sincronizacao do CI.
+| *   f2fad40 Merge pull request #4 from julianaandrade123/feature/testes-v2
+| |\  
+| | * 3e6c611 docs: atualizar evidências de auditoria após o novo SmokeTest
+| |/  
+| *   d80495c Merge pull request #2 from julianaandrade123/feature/testes
+| |\  
+| | * ec751a6 feat(tests): adicionar SmokeTest
+| |/  
+| * ae955f7 First commit
+* 77cb21f fix(ci): Removendo bloqueio do .gitignore e enviando arquivos wrapper (FINAL)
+* e7d5ac8 Adição do construtor vazio ao ProfissionalSaude.java
+* 509f526 Adição de construtor vazio ao UsuarioComum.java
+*   e8e6d0c Fix: Padronização de IDs, correção dos serviços de Registro/Hábito e integração entre módulos
+|\  
+| * a3d7c11 Fix: Ajuste completo dos IDs (String), services, repositories e controllers de registros
+|/  
+*   2a13877 Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+|\  
+| * 7f10dff Delete src/main/java/com/gestao_habitos_saudaveis/exception/handler directory
+* | 432224e Corrigindo erro de importação da classe JsonHabitoRepository
+|/  
+* 2ff5985 Corrigidos conflitos na exception e erros de importação
+*   8a5765b Merge pull request #4 from Rod12lePotatoLord2/feature/crud-registro-fix
+|\  
+| * eef1865 feat(dev3): ajustes finais do CRUD de registros + merge da develop
+| *   c0c8130 Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into feature/crud-registro-fix
+| |\  
+| |/  
+|/|   
+* |   1f42e33 Merge branch 'feature/crud-usuario' into develop
+|\ \  
+| * | 8af6866 Adiciona UsuarioController com endpoints CRUD
+| * | 8d07b9c Correção em JsonUtil: polimorfismo com @JsonTypeInfo e leitura/escrita JSON
+| * | 73bfb0c Correção e padronização das exceções: DadosInvalidosException, RecursoNaoEncontradoException e GlobalExceptionHandler
+| * | 69decb9 Ajustes em UsuarioService: tratamento de exceções e integração com Repository
+| * | 15c52f2 Correção de repository: validação de email, persistência JSON e polimorfismo
+| * | 63fa783 Ajuste de indentação e polimorfismo nas classes Usuario
+| * | 07da608 Completa UsuarioService com exceções e validações
+| * | 63f04ef Adição da camada exception e suas classes
+| * | 0167f79 Adição da classe UsuarioService, a camada service
+| * | b53a0a9 Adição do da classe UsuarioRepository, à camada repository
+| * | 5ace239 Uma pequena correção nas classes usuário
+| * | caa4d90 Adicionando o json as classes, e abistraindo a classe usuario
+* | |   b69ef33 Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+|\ \ \  
+| |/ /  
+|/| |   
+| * |   ab9ce83 Merge pull request #3 from Rod12lePotatoLord2/feature/habito-controller-v2
+| |\ \  
+| | * \   41ac16e Merge branch 'develop' into feature/habito-controller-v2
+| | |\ \  
+| | |/ /  
+| |/| |   
+| * | |   0a6a933 Merge pull request #2 from Rod12lePotatoLord2/feature/persistencia-servico-habito
+| |\ \ \  
+| | * \ \   fab4c21 Merge branch 'develop' into feature/persistencia-servico-habito
+| | |\ \ \  
+| | |/ / /  
+| |/| | |   
+| * | | |   666913d Merge pull request #1 from Rod12lePotatoLord2/feature/crud-habito
+| |\ \ \ \  
+| | * | | | 052294f Delete gestao-habitos-saudaveis directory
+| | * | | | 5c01d7a feat: ScannerDataLoader.java
+| | * | | | 3ef3c6e feat: GlobalExceptionHandler.java
+| | * | | | eee4ae3 feat: BadRequestException.java

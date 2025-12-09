@@ -1,0 +1,90 @@
+0e2fc4a Rod12lePotatoLord2 2025-12-09 19:57:34 -0300 fix(tests): mover SmokeTest para o package correto com.gestao_habitos_saudaveis
+4779a78 Rod12lePotatoLord2 2025-12-09 19:06:34 -0300 chore: trigger CI to run tests (Rodrigo)
+4af4699 Juliana Andrade 2025-12-09 18:24:53 -0300 Delete usuarios.json
+d6831b8 Juliana Andrade 2025-12-09 17:21:33 -0300 Merge final apos correcoes de CI
+fddc91f Juliana Andrade 2025-12-09 17:13:49 -0300 Merge branch 'develop' of https://github.com/julianaandrade123/AV2_gerencia_configura-o into develop
+77cb21f Juliana Andrade 2025-12-09 16:44:38 -0300 fix(ci): Removendo bloqueio do .gitignore e enviando arquivos wrapper (FINAL)
+12642f2 Juliana Andrade 2025-12-09 16:19:22 -0300 fix(ci): Aplicando permissão de execução (+x) ao mvnw (SOLUÇÃO FINAL DE PERMISSÃO)
+9da3bd2 Juliana Andrade 2025-12-09 16:11:48 -0300 fix(ci): Criando arquivo maven-wrapper.properties que estava faltando
+1808e6e Juliana Andrade 2025-12-09 15:58:10 -0300 fix(ci): Aplicando permissão de execução (+x) ao mvnw (FINAL TENTATIVA)
+d4b2b23 Juliana Andrade 2025-12-09 15:54:10 -0300 fix(ci): Arquivos do Maven Wrapper restaurados via importacao de projeto fonte
+8af28ee Juliana Andrade 2025-12-09 15:26:08 -0300 fix(ci): Corrigindo a permissao do mvnw e finalizando a sincronizacao do CI.
+f2fad40 Rodrigo Lima Barbosa12 2025-12-03 14:20:39 -0300 Merge pull request #4 from julianaandrade123/feature/testes-v2
+3e6c611 Rod12lePotatoLord2 2025-12-03 14:14:21 -0300 docs: atualizar evidências de auditoria após o novo SmokeTest
+d80495c Rodrigo Lima Barbosa12 2025-12-02 17:33:57 -0300 Merge pull request #2 from julianaandrade123/feature/testes
+ec751a6 Rod12lePotatoLord2 2025-12-02 17:31:06 -0300 feat(tests): adicionar SmokeTest
+ae955f7 Juliana Andrade 2025-12-01 17:54:07 -0300 First commit
+e7d5ac8 Juliana Andrade 2025-11-29 16:22:31 -0300 Adição do construtor vazio ao ProfissionalSaude.java
+509f526 Juliana Andrade 2025-11-29 16:20:51 -0300 Adição de construtor vazio ao UsuarioComum.java
+e8e6d0c Gabriel Acácio 2025-11-27 21:10:07 -0300 Fix: Padronização de IDs, correção dos serviços de Registro/Hábito e integração entre módulos
+a3d7c11 Gabriel Acácio 2025-11-27 20:25:20 -0300 Fix: Ajuste completo dos IDs (String), services, repositories e controllers de registros
+2a13877 Juliana Andrade 2025-11-26 12:29:02 -0300 Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+432224e Juliana Andrade 2025-11-26 12:24:31 -0300 Corrigindo erro de importação da classe JsonHabitoRepository
+7f10dff Juliana Andrade 2025-11-25 20:08:24 -0300 Delete src/main/java/com/gestao_habitos_saudaveis/exception/handler directory
+2ff5985 Juliana Andrade 2025-11-25 16:17:17 -0300 Corrigidos conflitos na exception e erros de importação
+8a5765b Gabriel Acácio 2025-11-20 17:43:38 -0300 Merge pull request #4 from Rod12lePotatoLord2/feature/crud-registro-fix
+eef1865 Gabriel Acácio 2025-11-20 16:34:49 -0300 feat(dev3): ajustes finais do CRUD de registros + merge da develop
+c0c8130 Gabriel Acácio 2025-11-20 16:30:37 -0300 Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into feature/crud-registro-fix
+1f42e33 Juliana Andrade 2025-11-17 17:37:36 -0300 Merge branch 'feature/crud-usuario' into develop
+b69ef33 Juliana Andrade 2025-11-17 17:31:10 -0300 Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+8af6866 Juliana Andrade 2025-11-17 17:14:26 -0300 Adiciona UsuarioController com endpoints CRUD
+8d07b9c Juliana Andrade 2025-11-17 17:12:20 -0300 Correção em JsonUtil: polimorfismo com @JsonTypeInfo e leitura/escrita JSON
+73bfb0c Juliana Andrade 2025-11-17 17:09:48 -0300 Correção e padronização das exceções: DadosInvalidosException, RecursoNaoEncontradoException e GlobalExceptionHandler
+69decb9 Juliana Andrade 2025-11-17 17:07:04 -0300 Ajustes em UsuarioService: tratamento de exceções e integração com Repository
+15c52f2 Juliana Andrade 2025-11-17 17:05:43 -0300 Correção de repository: validação de email, persistência JSON e polimorfismo
+63fa783 Juliana Andrade 2025-11-17 17:03:38 -0300 Ajuste de indentação e polimorfismo nas classes Usuario
+ab9ce83 Rodrigo Lima Barbosa12 2025-11-16 21:00:28 -0300 Merge pull request #3 from Rod12lePotatoLord2/feature/habito-controller-v2
+41ac16e Rodrigo Lima Barbosa12 2025-11-16 20:58:10 -0300 Merge branch 'develop' into feature/habito-controller-v2
+0a6a933 Rodrigo Lima Barbosa12 2025-11-16 20:30:35 -0300 Merge pull request #2 from Rod12lePotatoLord2/feature/persistencia-servico-habito
+fab4c21 Rodrigo Lima Barbosa12 2025-11-16 20:30:09 -0300 Merge branch 'develop' into feature/persistencia-servico-habito
+666913d Rodrigo Lima Barbosa12 2025-11-16 20:14:58 -0300 Merge pull request #1 from Rod12lePotatoLord2/feature/crud-habito
+410503e Rodrigo Lima Barbosa12 2025-11-16 19:45:37 -0300 Delete .gitkeep
+6197a81 Rodrigo Lima Barbosa12 2025-11-16 19:44:55 -0300 feat: adiciona HabitoController com CRUD e filtro por tipo
+07da608 Juliana Andrade 2025-11-14 16:28:49 -0300 Completa UsuarioService com exceções e validações
+63f04ef Juliana Andrade 2025-11-14 16:21:08 -0300 Adição da camada exception e suas classes
+0167f79 Juliana Andrade 2025-11-14 15:50:37 -0300 Adição da classe UsuarioService, a camada service
+b53a0a9 Juliana Andrade 2025-11-14 15:37:07 -0300 Adição do da classe UsuarioRepository, à camada repository
+e2ea17d Gabriel Acácio 2025-11-13 17:37:16 -0300 feat(dev3): ajustes finais antes de atualizar da develop
+282932e Gabriel Acácio 2025-11-04 14:01:48 -0300 docs(dev3): adiciona conteúdo ao Relatório Diário 04/11/2025
+71a9060 Gabriel Acácio 2025-11-10 17:35:07 -0300 Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+d661457 Gabriel Acácio 2025-11-04 13:46:03 -0300 docs(dev3): Relatório Diário 04/11/2025
+29ec560 Gabriel Acácio 2025-11-04 13:21:42 -0300 feat(dev3): CRUD completo de Registro
+052294f Rodrigo Lima Barbosa12 2025-11-10 14:17:46 -0300 Delete gestao-habitos-saudaveis directory
+5ace239 Juliana Andrade 2025-11-08 18:11:33 -0300 Uma pequena correção nas classes usuário
+ddcde82 Rodrigo Lima Barbosa12 2025-11-08 11:47:49 -0300 Delete .gitkeep
+fc3cd0c Rodrigo Lima Barbosa12 2025-11-08 11:44:22 -0300 feat: criação de HabitoController.java com endpoints REST e tratamento de exceções
+484563f Rodrigo Lima Barbosa12 2025-11-08 11:24:45 -0300 Delete .gitkeep
+f663b3b Rodrigo Lima Barbosa12 2025-11-08 11:23:55 -0300 feat: implementação de HabitoService.java com polimorfismo e tratamento de exceções
+f0ed1ba Rodrigo Lima Barbosa12 2025-11-08 11:03:58 -0300 feat: implementação de JsonHabitoRepository.java com persistência JSON e ArrayList
+80a8d19 Rodrigo Lima Barbosa12 2025-11-08 10:51:21 -0300 Deletando o .gitkeep
+f8a0aa5 Rodrigo Lima Barbosa12 2025-11-08 10:50:49 -0300 feat: criação de HabitoRepository.java
+caa4d90 Juliana Andrade 2025-11-06 15:36:29 -0300 Adicionando o json as classes, e abistraindo a classe usuario
+4d28f12 Juliana Andrade 2025-11-04 00:11:35 -0300 Criação do crud usuário
+9acf63f Juliana Andrade 2025-11-03 23:10:16 -0300 Delete gestao-habitos-saudaveis directory
+fb491f7 Juliana Andrade 2025-11-03 23:09:40 -0300 Delete gestao-habitos-saudaveis directory
+5c01d7a Rodrigo Lima Barbosa12 2025-11-03 22:10:46 -0300 feat: ScannerDataLoader.java
+3ef3c6e Rodrigo Lima Barbosa12 2025-11-03 22:09:50 -0300 feat: GlobalExceptionHandler.java
+eee4ae3 Rodrigo Lima Barbosa12 2025-11-03 22:08:52 -0300 feat: BadRequestException.java
+adceb1b Rodrigo Lima Barbosa12 2025-11-03 22:07:58 -0300 feat: ResourceNotFoundException.java
+d483bdb Rodrigo Lima Barbosa12 2025-11-03 22:07:04 -0300 Remoção do .gitkeep
+227f684 Rodrigo Lima Barbosa12 2025-11-03 22:06:39 -0300 feat: HabitoController.java
+3851b15 Rodrigo Lima Barbosa12 2025-11-03 22:05:42 -0300 Delete .gitkeep
+5cfb3af Rodrigo Lima Barbosa12 2025-11-03 22:05:16 -0300 feat: Implementação de HabitoService.java
+7465613 Rodrigo Lima Barbosa12 2025-11-03 22:03:42 -0300 Movendo JsonHabitoRepository.java
+63a6229 Rodrigo Lima Barbosa12 2025-11-03 22:02:16 -0300 Movendo HabitoRepository.java
+16a9298 Rodrigo Lima Barbosa12 2025-11-03 22:01:08 -0300 Movendo HabitoSono.java
+55275a4 Rodrigo Lima Barbosa12 2025-11-03 21:59:57 -0300 Movendo HabitoAtividadeFisica.java
+3ef7ad0 Rodrigo Lima Barbosa12 2025-11-03 21:58:46 -0300 Movendo HabitoAlimentacao.java para ficar melhor organizado
+230abb8 Rodrigo Lima Barbosa12 2025-11-03 21:57:28 -0300 Movendo Habito.java para ficar mais organizado.
+8220ac0 Rodrigo Lima Barbosa12 2025-11-03 21:47:59 -0300 feat: JsonHabitoRepository.java
+922fe5f Rodrigo Lima Barbosa12 2025-11-03 21:46:34 -0300 feat: HabitoRepository.java
+660a031 Rodrigo Lima Barbosa12 2025-11-03 21:45:09 -0300 Delete: .gitkeep
+5098c49 Rodrigo Lima Barbosa12 2025-11-03 21:43:46 -0300 feat: Implementação de HabitoAtividadeFisica.java
+be819b5 Rodrigo Lima Barbosa12 2025-11-03 21:42:33 -0300 feat: Implementação de HabitoSono.java
+4fe2c36 Rodrigo Lima Barbosa12 2025-11-03 21:39:59 -0300 feat: Implementação de HabitoAlimento.java
+f4c3b3c Rodrigo Lima Barbosa12 2025-11-03 21:37:08 -0300 feat: Implementação de Habito.java
+9380345 Rodrigo Lima Barbosa12 2025-11-03 20:54:10 -0300 Delete .gitkeep
+e7b68a9 Juliana Andrade 2025-11-01 19:16:05 -0300 Adição das camadas do projeto a sua estrutura inicial
+dc6860b Juliana Andrade 2025-10-31 14:45:27 -0300 Merge inicial do projeto Spring Boot com o README do remoto
+1738f52 Juliana Andrade 2025-10-31 14:33:17 -0300 Estrutura inicial do projeto
+ac65cad Rodrigo Lima Barbosa12 2025-10-27 13:31:01 -0300 Primeiro Commit

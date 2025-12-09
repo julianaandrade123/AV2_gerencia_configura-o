@@ -1,0 +1,826 @@
+commit 0e2fc4a8f244466a8cbda6c3e9c65b6c0cee78f7
+Author: Rod12lePotatoLord2 <rodrigo.limabarbosa@upe.br>
+Date:   Tue Dec 9 19:57:34 2025 -0300
+
+    fix(tests): mover SmokeTest para o package correto com.gestao_habitos_saudaveis
+
+src/test/java/com/gestao_habitos_saudaveis/SmokeTest.java
+
+commit 4779a7841cdc9b82373776f35156e754d092bfeb
+Author: Rod12lePotatoLord2 <rodrigo.limabarbosa@upe.br>
+Date:   Tue Dec 9 19:06:34 2025 -0300
+
+    chore: trigger CI to run tests (Rodrigo)
+
+commit 4af4699aa1c214726d17d6a2c3adfbbfb1a78c49
+Author: Juliana Andrade <166751130+julianaandrade123@users.noreply.github.com>
+Date:   Tue Dec 9 18:24:53 2025 -0300
+
+    Delete usuarios.json
+
+usuarios.json
+
+commit d6831b8baa2ecbb46fa65689cce49ee1b172b459
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 17:21:33 2025 -0300
+
+    Merge final apos correcoes de CI
+
+pom.xml
+
+commit fddc91f2d39a9e6706d41a1e58e4a6f068e4c5b0
+Merge: 77cb21f 12642f2
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 17:13:49 2025 -0300
+
+    Merge branch 'develop' of https://github.com/julianaandrade123/AV2_gerencia_configura-o into develop
+
+commit 77cb21f46c0493aa57bc20a7ac65836973e9c8c3
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 16:44:38 2025 -0300
+
+    fix(ci): Removendo bloqueio do .gitignore e enviando arquivos wrapper (FINAL)
+
+.gitignore
+"Relat\303\263rio Di\303\241rio Dev3.md"
+data/habitos.json
+mvnw
+usuarios.json
+
+commit 12642f272e579d2fd80c862d29a6cb666094841b
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 16:19:22 2025 -0300
+
+    fix(ci): Aplicando permissão de execução (+x) ao mvnw (SOLUÇÃO FINAL DE PERMISSÃO)
+
+commit 9da3bd22207fa60de46e44460242995b0bf06d7b
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 16:11:48 2025 -0300
+
+    fix(ci): Criando arquivo maven-wrapper.properties que estava faltando
+
+.mvn/wrapper/maven-wrapper.properties.txt
+
+commit 1808e6ecc67fa618863a8f7d51d05c0ce908503b
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 15:58:10 2025 -0300
+
+    fix(ci): Aplicando permissão de execução (+x) ao mvnw (FINAL TENTATIVA)
+
+mvnw
+
+commit d4b2b23152953b3e273cd5a37b2b6f8da3e05f36
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 15:54:10 2025 -0300
+
+    fix(ci): Arquivos do Maven Wrapper restaurados via importacao de projeto fonte
+
+mvnw
+mvnw.cmd
+
+commit 8af28eed599a5b6e0bed2636e7456d6d2e853fa1
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Dec 9 15:26:08 2025 -0300
+
+    fix(ci): Corrigindo a permissao do mvnw e finalizando a sincronizacao do CI.
+
+.github/workflows/java-ci.yml
+
+commit f2fad40db123e66d7835e67f2f13e6ca19a8ff60
+Merge: d80495c 3e6c611
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Wed Dec 3 14:20:39 2025 -0300
+
+    Merge pull request #4 from julianaandrade123/feature/testes-v2
+    
+    feat(testes-v2): adicionar SmokeTest + evidências atualizadas
+
+commit 3e6c6115c1299dfea92b77d5c7c539facb27f0d1
+Author: Rod12lePotatoLord2 <rodrigo.limabarbosa@upe.br>
+Date:   Wed Dec 3 14:14:21 2025 -0300
+
+    docs: atualizar evidências de auditoria após o novo SmokeTest
+
+report-assets/evidencia_autores.txt
+report-assets/evidencia_blame_smoketest.txt
+report-assets/evidencia_git_log.txt
+
+commit d80495c335d00a024ae0371f96d17d862eb5843d
+Merge: ae955f7 ec751a6
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Tue Dec 2 17:33:57 2025 -0300
+
+    Merge pull request #2 from julianaandrade123/feature/testes
+    
+    feat(tests): adicionar SmokeTest
+
+commit ec751a61001e07672d82c2ee2be29eca9e78ea32
+Author: Rod12lePotatoLord2 <rodrigo.limabarbosa@upe.br>
+Date:   Tue Dec 2 17:31:06 2025 -0300
+
+    feat(tests): adicionar SmokeTest
+
+pom.xml
+src/test/java/com/example/SmokeTest.java
+
+commit ae955f7aac533bcebe71f477114bd6b45f9c7983
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Dec 1 17:54:07 2025 -0300
+
+    First commit
+
+README.md
+
+commit e7d5ac807e070746a6335ac5639da1a4e0c04b27
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Sat Nov 29 16:22:31 2025 -0300
+
+    Adição do construtor vazio ao ProfissionalSaude.java
+
+src/main/java/com/gestao_habitos_saudaveis/model/ProfissionalSaude.java
+
+commit 509f526d7f02bd8f3d14ff6c18cb7503e4d98cb4
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Sat Nov 29 16:20:51 2025 -0300
+
+    Adição de construtor vazio ao UsuarioComum.java
+
+src/main/java/com/gestao_habitos_saudaveis/model/UsuarioComum.java
+
+commit e8e6d0c1f8dde732e0bcf9513e99a8670a51f2d3
+Merge: 2a13877 a3d7c11
+Author: Gabriel Acácio <123883012+Gabriel-Acacio08@users.noreply.github.com>
+Date:   Thu Nov 27 21:10:07 2025 -0300
+
+    Fix: Padronização de IDs, correção dos serviços de Registro/Hábito e integração entre módulos
+    
+    Padronização completa dos IDs de RegistroDiario e RegistroHabito para o tipo String, eliminando o uso inconsistente de Long no módulo.
+    Foram atualizadas todas as camadas relacionadas (Model, Repository, Service e Controller), garantindo consistência e funcionamento correto do CRUD.
+    
+    Principais ajustes:
+    
+    Atualização dos models para utilizar String como tipo de ID.
+    
+    Implementação de geradores de ID legíveis (DIARIO-* e REGHABITO-*) no RegistroRepository.
+    
+    Correção de todos os métodos de busca, atualização e exclusão para operar com IDs String.
+    
+    Adequação de controllers e services ao novo padrão.
+    
+    Ajustes no RegistroIntegradoService para converter IDs de hábitos (Long → String) antes de vinculá-los ao registro.
+    
+    Remoção de código obsoleto relacionado a IDs numéricos.
+    
+    Esse commit corrige falhas que impediam a criação, atualização e exclusão de registros, restaurando o funcionamento completo do módulo.
+
+commit a3d7c112ace3835750743e56e131861776cfdf4c
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Thu Nov 27 20:25:20 2025 -0300
+
+    Fix: Ajuste completo dos IDs (String), services, repositories e controllers de registros
+
+src/main/java/com/gestao_habitos_saudaveis/controller/RegistroController.java
+src/main/java/com/gestao_habitos_saudaveis/model/RegistroDiario.java
+src/main/java/com/gestao_habitos_saudaveis/model/RegistroHabito.java
+src/main/java/com/gestao_habitos_saudaveis/repository/HabitoRepository.java
+src/main/java/com/gestao_habitos_saudaveis/repository/RegistroRepository.java
+src/main/java/com/gestao_habitos_saudaveis/repository/UsuarioRepository.java
+src/main/java/com/gestao_habitos_saudaveis/service/HabitoService.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroIntegradoService.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroService.java
+src/main/java/com/gestao_habitos_saudaveis/service/UsuarioService.java
+
+commit 2a138775a98e40a85fb7152f0c283c0744521b31
+Merge: 432224e 7f10dff
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Wed Nov 26 12:29:02 2025 -0300
+
+    Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+
+commit 432224e66b0d64e276a8706e8382377f4eddeb42
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Wed Nov 26 12:24:31 2025 -0300
+
+    Corrigindo erro de importação da classe JsonHabitoRepository
+
+src/main/java/com/gestao_habitos_saudaveis/exception/handler/GlobalExceptionHandler.java
+src/main/java/com/gestao_habitos_saudaveis/repository/JsonHabitoRepository.java
+
+commit 7f10dff6ae923d9bd157adddfbfd5ff92b139bd0
+Author: Juliana Andrade <166751130+julianaandrade123@users.noreply.github.com>
+Date:   Tue Nov 25 20:08:24 2025 -0300
+
+    Delete src/main/java/com/gestao_habitos_saudaveis/exception/handler directory
+    
+    Removendo a pasta handle de exception que tava com um arquivo "GlobalExceptionHandler.java" duplicado (Já existe um arquivo assim na pasta exception)
+
+src/main/java/com/gestao_habitos_saudaveis/exception/handler/GlobalExceptionHandler.java
+
+commit 2ff5985d4749b9802748e0b52b23b4c3fa5955ed
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Nov 25 16:17:17 2025 -0300
+
+    Corrigidos conflitos na exception e erros de importação
+
+src/main/java/com/gestao_habitos_saudaveis/exception/DadosInvalidosException.java
+src/main/java/com/gestao_habitos_saudaveis/exception/GlobalExceptionHandler.java
+src/main/java/com/gestao_habitos_saudaveis/exception/RecursoNaoEncontradoException.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroIntegradoService.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroService.java
+src/main/java/com/gestao_habitos_saudaveis/service/UsuarioService.java
+
+commit 8a5765b7e74f5c3ceb225ac5ba139d40e0d6e78c
+Merge: 1f42e33 eef1865
+Author: Gabriel Acácio <123883012+Gabriel-Acacio08@users.noreply.github.com>
+Date:   Thu Nov 20 17:43:38 2025 -0300
+
+    Merge pull request #4 from Rod12lePotatoLord2/feature/crud-registro-fix
+    
+    feat(dev3): implementação completa do CRUD de registros (diário e hábitos)
+
+commit eef1865ee303f7aa3de0ec38c7d41a2abdea265e
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Thu Nov 20 16:34:49 2025 -0300
+
+    feat(dev3): ajustes finais do CRUD de registros + merge da develop
+
+src/main/java/com/gestao_habitos_saudaveis/controller/RegistroController.java
+src/main/java/com/gestao_habitos_saudaveis/exception/handler/GlobalExceptionHandler.java
+src/main/java/com/gestao_habitos_saudaveis/model/RegistroDiario.java
+src/main/java/com/gestao_habitos_saudaveis/model/RegistroHabito.java
+src/main/java/com/gestao_habitos_saudaveis/repository/RegistroRepository.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroIntegradoService.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroService.java
+
+commit c0c8130ac15ddb5a23f6e5891a851a5854949f2a
+Merge: e2ea17d 1f42e33
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Thu Nov 20 16:30:37 2025 -0300
+
+    Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into feature/crud-registro-fix
+
+commit 1f42e336c2e67750498702fd2ee783d064d6983b
+Merge: b69ef33 8af6866
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:37:36 2025 -0300
+
+    Merge branch 'feature/crud-usuario' into develop
+
+commit b69ef3321ed1351fbf9b30d13deeaa6ad2b62c86
+Merge: 4d28f12 ab9ce83
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:31:10 2025 -0300
+
+    Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+
+commit 8af68663aa6d5323994edea55680cd9f9ab72e82
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:14:26 2025 -0300
+
+    Adiciona UsuarioController com endpoints CRUD
+
+src/main/java/com/gestao_habitos_saudaveis/controller/UsuarioController.java
+
+commit 8d07b9c1a8adcce91cf446bddfe1ba6319d9a0a9
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:12:20 2025 -0300
+
+    Correção em JsonUtil: polimorfismo com @JsonTypeInfo e leitura/escrita JSON
+
+src/main/java/com/gestao_habitos_saudaveis/util/JsonUtil.java
+
+commit 73bfb0c480f34c9f7581c903d5bcce0072194a0d
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:09:48 2025 -0300
+
+    Correção e padronização das exceções: DadosInvalidosException, RecursoNaoEncontradoException e GlobalExceptionHandler
+
+src/main/java/com/gestao_habitos_saudaveis/exception/DadosInvalidosException.java
+src/main/java/com/gestao_habitos_saudaveis/exception/GlobalExceptionHandler.java
+src/main/java/com/gestao_habitos_saudaveis/exception/RecursoNaoEncontradoException.java
+
+commit 69decb9f8b6b99f0f21d1d0b85e5b15f58967e30
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:07:04 2025 -0300
+
+    Ajustes em UsuarioService: tratamento de exceções e integração com Repository
+
+src/main/java/com/gestao_habitos_saudaveis/service/UsuarioService.java
+
+commit 15c52f2bbe342cd28fe780bfc9862a4151323319
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:05:43 2025 -0300
+
+    Correção de repository: validação de email, persistência JSON e polimorfismo
+
+src/main/java/com/gestao_habitos_saudaveis/repository/UsuarioRepository.java
+
+commit 63fa7836c4e87773edd2aa3cec3ca84d79d04094
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Mon Nov 17 17:03:38 2025 -0300
+
+    Ajuste de indentação e polimorfismo nas classes Usuario
+
+src/main/java/com/gestao_habitos_saudaveis/model/ProfissionalSaude.java
+src/main/java/com/gestao_habitos_saudaveis/model/Usuario.java
+src/main/java/com/gestao_habitos_saudaveis/model/UsuarioComum.java
+
+commit ab9ce833a7edd985fc9eb538ebdfc3984f0fb603
+Merge: 0a6a933 41ac16e
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sun Nov 16 21:00:28 2025 -0300
+
+    Merge pull request #3 from Rod12lePotatoLord2/feature/habito-controller-v2
+    
+    feat: Implementação do HabitoController (CRUD REST + Filtro por Tipo)
+
+commit 41ac16e3d7636924b86dae408194fa5daf0beb0a
+Merge: 410503e 0a6a933
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sun Nov 16 20:58:10 2025 -0300
+
+    Merge branch 'develop' into feature/habito-controller-v2
+
+commit 0a6a933c6614eb6736241ffb3ffacf4ac65abe60
+Merge: 666913d fab4c21
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sun Nov 16 20:30:35 2025 -0300
+
+    Merge pull request #2 from Rod12lePotatoLord2/feature/persistencia-servico-habito
+    
+    feat: merge da camada de persistência e serviço de Hábitos
+
+commit fab4c21ee856fdab88b30403aac8c869c5b4354b
+Merge: ddcde82 666913d
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sun Nov 16 20:30:09 2025 -0300
+
+    Merge branch 'develop' into feature/persistencia-servico-habito
+
+commit 666913df1d5063dd7924fdd43661858390ba3825
+Merge: d661457 052294f
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sun Nov 16 20:14:58 2025 -0300
+
+    Merge pull request #1 from Rod12lePotatoLord2/feature/crud-habito
+    
+    feat: Implementação do Modelo de Hábito (POO + Polimorfismo)
+
+commit 410503ea798ad7b2ab8690b8b7c1bf5486c80943
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sun Nov 16 19:45:37 2025 -0300
+
+    Delete .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/controller/.gitkeep
+
+commit 6197a81f05901e1dbfb6e9c1983bfe11668d3da3
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sun Nov 16 19:44:55 2025 -0300
+
+    feat: adiciona HabitoController com CRUD e filtro por tipo
+
+src/main/java/com/gestao_habitos_saudaveis/controller/HabitoController.java
+
+commit 07da608fb590cae126a34347cfe6c13a2a57405d
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Fri Nov 14 16:28:49 2025 -0300
+
+    Completa UsuarioService com exceções e validações
+
+src/main/java/com/gestao_habitos_saudaveis/service/UsuarioService.java
+
+commit 63f04efc26b4e699e136d338883258324325cd98
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Fri Nov 14 16:21:08 2025 -0300
+
+    Adição da camada exception e suas classes
+
+src/main/java/com/gestao_habitos_saudaveis/exception/DadosInvalidosException.java
+src/main/java/com/gestao_habitos_saudaveis/exception/GlobalExceptionHandler.java
+src/main/java/com/gestao_habitos_saudaveis/exception/RecursoNaoEncontradoException.java
+
+commit 0167f79ad0480b5cae9e9f6547593a4a32953db6
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Fri Nov 14 15:50:37 2025 -0300
+
+    Adição da classe UsuarioService, a camada service
+
+src/main/java/com/gestao_habitos_saudaveis/service/UsuarioService.java
+
+commit b53a0a95446dcade3161cc01049e308cff2f78e2
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Fri Nov 14 15:37:07 2025 -0300
+
+    Adição do da classe UsuarioRepository, à camada repository
+
+src/main/java/com/gestao_habitos_saudaveis/repository/UsuarioRepository.java
+
+commit e2ea17dc26736a4210987d2ab33d4abcaddd93a0
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Thu Nov 13 17:37:16 2025 -0300
+
+    feat(dev3): ajustes finais antes de atualizar da develop
+
+pom.xml
+src/main/java/com/gestao_habitos_saudaveis/exception/handler/GlobalExceptionHandler.java
+src/main/java/com/gestao_habitos_saudaveis/model/RegistroDiario.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroIntegradoService.java
+
+commit 282932ecb7fc75a5039ca99254e04fa62bd36370
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Tue Nov 4 14:01:48 2025 -0300
+
+    docs(dev3): adiciona conteúdo ao Relatório Diário 04/11/2025
+
+"Relat\303\263rio Di\303\241rio Dev3.md"
+
+commit 71a90608770c6a231c0504eab2e0ffc33b41abaf
+Merge: fb491f7 d661457
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Mon Nov 10 17:35:07 2025 -0300
+
+    Merge branch 'develop' of https://github.com/Rod12lePotatoLord2/Umprojetodep2 into develop
+
+commit d6614570d1b1aaba0e2648347b1c4c3c855e7dfc
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Tue Nov 4 13:46:03 2025 -0300
+
+    docs(dev3): Relatório Diário 04/11/2025
+
+"Relat\303\263rio Di\303\241rio Dev3.md"
+
+commit 29ec560bdff9b88055c005dd9a47fdade8b93d37
+Author: Gabriel Acácio <gavasconcelos08@gmail.com>
+Date:   Tue Nov 4 13:21:42 2025 -0300
+
+    feat(dev3): CRUD completo de Registro
+
+src/main/java/com/gestao_habitos_saudaveis/controller/RegistroController.java
+src/main/java/com/gestao_habitos_saudaveis/exception/DadosInvalidosException.java
+src/main/java/com/gestao_habitos_saudaveis/exception/RecursoNaoEncontradoException.java
+src/main/java/com/gestao_habitos_saudaveis/model/RegistroDiario.java
+src/main/java/com/gestao_habitos_saudaveis/model/RegistroHabito.java
+src/main/java/com/gestao_habitos_saudaveis/repository/RegistroRepository.java
+src/main/java/com/gestao_habitos_saudaveis/service/RegistroService.java
+
+commit 052294f6b312502522c41ead7d276f1c90422ca5
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 10 14:17:46 2025 -0300
+
+    Delete gestao-habitos-saudaveis directory
+
+gestao-habitos-saudaveis/.gitattributes
+gestao-habitos-saudaveis/.gitignore
+gestao-habitos-saudaveis/.mvn/wrapper/maven-wrapper.properties
+gestao-habitos-saudaveis/mvnw
+gestao-habitos-saudaveis/mvnw.cmd
+gestao-habitos-saudaveis/pom.xml
+gestao-habitos-saudaveis/src/main/java/com/gestao_habitos_saudaveis/Application.java
+gestao-habitos-saudaveis/src/main/resources/application.properties
+gestao-habitos-saudaveis/src/test/java/com/gestao_habitos_saudaveis/ApplicationTests.java
+
+commit 5ace239d99f29d2bee070367043ce3be4d9d4731
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Sat Nov 8 18:11:33 2025 -0300
+
+    Uma pequena correção nas classes usuário
+
+src/main/java/com/gestao_habitos_saudaveis/model/ProfissionalSaude.java
+src/main/java/com/gestao_habitos_saudaveis/model/Usuario.java
+src/main/java/com/gestao_habitos_saudaveis/model/UsuarioComum.java
+
+commit ddcde82b3fc73f3da3a1aa489d89ce0a465f590f
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sat Nov 8 11:47:49 2025 -0300
+
+    Delete .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/controller/.gitkeep
+
+commit fc3cd0c2598203db17b75e37d6c085bc986e4082
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sat Nov 8 11:44:22 2025 -0300
+
+    feat: criação de HabitoController.java com endpoints REST e tratamento de exceções
+
+src/main/java/com/gestao_habitos_saudaveis/controller/HabitoController.java
+
+commit 484563fb7230fab46bc267c1ed4cae9a27cceb8c
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sat Nov 8 11:24:45 2025 -0300
+
+    Delete .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/service/.gitkeep
+
+commit f663b3bb7794dd72a94c4a65360c089bca54c553
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sat Nov 8 11:23:55 2025 -0300
+
+    feat: implementação de HabitoService.java com polimorfismo e tratamento de exceções
+
+src/main/java/com/gestao_habitos_saudaveis/service/HabitoService.java
+
+commit f0ed1ba09f92e99d2ee5d092ec3987acee55e0e8
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sat Nov 8 11:03:58 2025 -0300
+
+    feat: implementação de JsonHabitoRepository.java com persistência JSON e ArrayList
+
+src/main/java/com/gestao_habitos_saudaveis/repository/JsonHabitoRepository.java
+
+commit 80a8d1998b4601f9b6595fcd2f97337311bbe169
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sat Nov 8 10:51:21 2025 -0300
+
+    Deletando o .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/repository/.gitkeep
+
+commit f8a0aa5b62b08f92ba3d66659c40587df1656b70
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Sat Nov 8 10:50:49 2025 -0300
+
+    feat: criação de HabitoRepository.java
+
+src/main/java/com/gestao_habitos_saudaveis/repository/HabitoRepository.java
+
+commit caa4d90b60cfaf14054a5e8df7332a51f2395403
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Thu Nov 6 15:36:29 2025 -0300
+
+    Adicionando o json as classes, e abistraindo a classe usuario
+
+src/main/java/com/gestao_habitos_saudaveis/model/Usuario.java
+src/main/java/com/gestao_habitos_saudaveis/model/UsuarioComum.java
+
+commit 4d28f12ad94d8088fb9643e121223d2538fe4072
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Tue Nov 4 00:11:35 2025 -0300
+
+    Criação do crud usuário
+
+src/main/java/com/gestao_habitos_saudaveis/model/.gitkeep
+src/main/java/com/gestao_habitos_saudaveis/model/ProfissionalSaude.java
+src/main/java/com/gestao_habitos_saudaveis/model/Usuario.java
+src/main/java/com/gestao_habitos_saudaveis/model/UsuarioComum.java
+
+commit 9acf63fb06f825ad1247e7fd45534835a49737c8
+Author: Juliana Andrade <166751130+julianaandrade123@users.noreply.github.com>
+Date:   Mon Nov 3 23:10:16 2025 -0300
+
+    Delete gestao-habitos-saudaveis directory
+
+gestao-habitos-saudaveis/.gitattributes
+gestao-habitos-saudaveis/.gitignore
+gestao-habitos-saudaveis/.mvn/wrapper/maven-wrapper.properties
+gestao-habitos-saudaveis/mvnw
+gestao-habitos-saudaveis/mvnw.cmd
+gestao-habitos-saudaveis/pom.xml
+gestao-habitos-saudaveis/src/main/java/com/gestao_habitos_saudaveis/Application.java
+gestao-habitos-saudaveis/src/main/resources/application.properties
+gestao-habitos-saudaveis/src/test/java/com/gestao_habitos_saudaveis/ApplicationTests.java
+
+commit fb491f76108d902018f443cdcf56c6b57bdc4abb
+Author: Juliana Andrade <166751130+julianaandrade123@users.noreply.github.com>
+Date:   Mon Nov 3 23:09:40 2025 -0300
+
+    Delete gestao-habitos-saudaveis directory
+
+gestao-habitos-saudaveis/.gitattributes
+gestao-habitos-saudaveis/.gitignore
+gestao-habitos-saudaveis/.mvn/wrapper/maven-wrapper.properties
+gestao-habitos-saudaveis/mvnw
+gestao-habitos-saudaveis/mvnw.cmd
+gestao-habitos-saudaveis/pom.xml
+gestao-habitos-saudaveis/src/main/java/com/gestao_habitos_saudaveis/Application.java
+gestao-habitos-saudaveis/src/main/resources/application.properties
+gestao-habitos-saudaveis/src/test/java/com/gestao_habitos_saudaveis/ApplicationTests.java
+
+commit 5c01d7ab9cc0cccec5eb219dc26769fad00fcb96
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:10:46 2025 -0300
+
+    feat: ScannerDataLoader.java
+
+src/main/java/com/gestao_habitos_saudaveis/config/ScannerDataLoader.java
+
+commit 3ef3c6e5d0400b75db6b8b943c6624686b7f9eb0
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:09:50 2025 -0300
+
+    feat: GlobalExceptionHandler.java
+
+src/main/java/com/gestao_habitos_saudaveis/exception/GlobalExceptionHandler.java
+
+commit eee4ae35c9442adbb082c794eae12784e1a260f2
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:08:52 2025 -0300
+
+    feat: BadRequestException.java
+
+src/main/java/com/gestao_habitos_saudaveis/exception/BadRequestException.java
+
+commit adceb1b92237c8eaf2afc089915d584b49d3ec62
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:07:58 2025 -0300
+
+    feat: ResourceNotFoundException.java
+
+src/main/java/com/gestao_habitos_saudaveis/exception/ResourceNotFoundException.java
+
+commit d483bdb40a2b5f8fcbc42afb2632e5ac43acb097
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:07:04 2025 -0300
+
+    Remoção do .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/controller/.gitkeep
+
+commit 227f684385bdd1702c7910bd1f70f91f8d51046c
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:06:39 2025 -0300
+
+    feat: HabitoController.java
+
+src/main/java/com/gestao_habitos_saudaveis/controller/HabitoController.java
+
+commit 3851b1556a20fd34d8c3c94ac3004f0e533355bd
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:05:42 2025 -0300
+
+    Delete .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/service/.gitkeep
+
+commit 5cfb3afec20f3bff2b6dd7fe17a1426fb0d332e6
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:05:16 2025 -0300
+
+    feat: Implementação de HabitoService.java
+
+src/main/java/com/gestao_habitos_saudaveis/service/HabitoService.java
+
+commit 7465613f3ec7258e1e5021ed3c9d05812743c96f
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:03:42 2025 -0300
+
+    Movendo JsonHabitoRepository.java
+
+src/main/java/com/gestao_habitos_saudaveis/repository/JsonHabitoRepository.java
+
+commit 63a62291a9764e80c20f6069b1b9514dfe0473d0
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:02:16 2025 -0300
+
+    Movendo HabitoRepository.java
+
+src/main/java/com/gestao_habitos_saudaveis/repository/HabitoRepository.java
+
+commit 16a9298e6dc97a2d94e305353b3c04265a482bde
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 22:01:08 2025 -0300
+
+    Movendo HabitoSono.java
+
+src/main/java/com/gestao_habitos_saudaveis/model/HabitoSono.java
+
+commit 55275a4ae6f22fcb2a4598a61740457a939172ea
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:59:57 2025 -0300
+
+    Movendo HabitoAtividadeFisica.java
+
+src/main/java/com/gestao_habitos_saudaveis/model/HabitoAtividadeFisica.java
+
+commit 3ef7ad0791d69ea18e8f1f07fda97bdd7edb7a97
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:58:46 2025 -0300
+
+    Movendo HabitoAlimentacao.java para ficar melhor organizado
+
+src/main/java/com/gestao_habitos_saudaveis/model/HabitoAlimentacao.java
+
+commit 230abb8a3ae0f1e089000fdad9a87103cc745c10
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:57:28 2025 -0300
+
+    Movendo Habito.java para ficar mais organizado.
+
+src/main/java/com/gestao_habitos_saudaveis/model/Habito.java
+
+commit 8220ac0589b3a543ea086cd72c00667ee2d3d05c
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:47:59 2025 -0300
+
+    feat: JsonHabitoRepository.java
+
+src/main/java/com/gestao_habitos_saudaveis/src/main/java/com/gestao_habitos_saudaveis/repository/src/main/java/com/gestao_habitos_saudaveis/repository/JsonHabitoRepository.java
+
+commit 922fe5ffcf1ad2fda1c0dfb029e4a9546ca6f2fe
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:46:34 2025 -0300
+
+    feat: HabitoRepository.java
+
+src/main/java/com/gestao_habitos_saudaveis/src/main/java/com/gestao_habitos_saudaveis/repository/HabitoRepository.java
+
+commit 660a0317d42220f24aeb85ef7ca24b15990811f9
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:45:09 2025 -0300
+
+    Delete: .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/repository/.gitkeep
+
+commit 5098c49b120e0c70bfe13603cfccce8535f18d25
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:43:46 2025 -0300
+
+    feat: Implementação de HabitoAtividadeFisica.java
+
+src/main/java/com/gestao_habitos_saudaveis/src/main/java/com/gestao_habitos_saudaveis/model/HabitoAtividadeFisica.java
+
+commit be819b5ae28f37d680af80f0ed6d73ad8dc697e9
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:42:33 2025 -0300
+
+    feat: Implementação de HabitoSono.java
+
+src/main/java/com/gestao_habitos_saudaveis/src/main/java/com/gestao_habitos_saudaveis/model/HabitoSono.java
+
+commit 4fe2c36a361340366a190374470776e08cb26781
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:39:59 2025 -0300
+
+    feat: Implementação de HabitoAlimento.java
+
+src/main/java/com/gestao_habitos_saudaveis/src/main/java/com/gestao_habitos_saudaveis/model/HabitoAlimentacao.java
+
+commit f4c3b3cb945802fbe6b41f427176bd24a10f6d26
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 21:37:08 2025 -0300
+
+    feat: Implementação de Habito.java
+
+src/main/java/com/gestao_habitos_saudaveis/src/main/java/com/gestao_habitos_saudaveis/model/Habito.java
+
+commit 9380345d9b83860a3ab705e724859f44e9ac262c
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Nov 3 20:54:10 2025 -0300
+
+    Delete .gitkeep
+
+src/main/java/com/gestao_habitos_saudaveis/model/.gitkeep
+
+commit e7b68a99cc33ceab71f645befd38af2f674c8c39
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Sat Nov 1 19:16:05 2025 -0300
+
+    Adição das camadas do projeto a sua estrutura inicial
+
+src/main/java/com/gestao_habitos_saudaveis/controller/.gitkeep
+src/main/java/com/gestao_habitos_saudaveis/model/.gitkeep
+src/main/java/com/gestao_habitos_saudaveis/repository/.gitkeep
+src/main/java/com/gestao_habitos_saudaveis/service/.gitkeep
+
+commit dc6860b4b58511e750d46efed603cfc377f8eb15
+Merge: 1738f52 ac65cad
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Fri Oct 31 14:45:27 2025 -0300
+
+    Merge inicial do projeto Spring Boot com o README do remoto
+
+commit 1738f52308221976b5b043e09b491e400a2b6b3f
+Author: Juliana Andrade <juli24013@gmail.com>
+Date:   Fri Oct 31 14:33:17 2025 -0300
+
+    Estrutura inicial do projeto
+
+.gitattributes
+.gitignore
+.mvn/wrapper/maven-wrapper.properties
+gestao-habitos-saudaveis/.gitattributes
+gestao-habitos-saudaveis/.gitignore
+gestao-habitos-saudaveis/.mvn/wrapper/maven-wrapper.properties
+gestao-habitos-saudaveis/mvnw
+gestao-habitos-saudaveis/mvnw.cmd
+gestao-habitos-saudaveis/pom.xml
+gestao-habitos-saudaveis/src/main/java/com/gestao_habitos_saudaveis/Application.java
+gestao-habitos-saudaveis/src/main/resources/application.properties
+gestao-habitos-saudaveis/src/test/java/com/gestao_habitos_saudaveis/ApplicationTests.java
+mvnw
+mvnw.cmd
+pom.xml
+src/main/java/com/gestao_habitos_saudaveis/Application.java
+src/main/resources/application.properties
+src/test/java/com/gestao_habitos_saudaveis/ApplicationTests.java
+
+commit ac65cad52090cea6a545c5d680e44e635508b326
+Author: Rodrigo Lima Barbosa12 <rodrigo.limabarbosa@upe.br>
+Date:   Mon Oct 27 13:31:01 2025 -0300
+
+    Primeiro Commit
+
+README.md

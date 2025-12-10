@@ -1,5 +1,5 @@
 [
- {
+ { "tipoUsuario" : "PROFISSIONAL",
   "id" : 3,
   "nome" : "Dra. Maria",
   "email" : "mariamedicina@gmail.com",
